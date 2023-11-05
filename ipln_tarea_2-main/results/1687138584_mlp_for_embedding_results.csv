@@ -1,0 +1,193 @@
+Classifier,Metaparameters,Word Representation,Preprocessing,F1 Score,Train Time,Test time
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.6002011979483606,6.046300172805786,0.0010387897491455078
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.591995051940575,7.746297359466553,0.006000995635986328
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.6140215314943912,6.70699667930603,0.002975940704345703
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5933932781033205,11.459656000137329,0.008088827133178711
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5930163037761305,7.96273398399353,0.0019192695617675781
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5891676000868169,12.423966884613037,0.007003068923950195
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5699681738536063,12.794051170349121,0.002977609634399414
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5881901774385785,20.09068465232849,0.012998342514038086
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5866333005728108,11.734504461288452,0.000978708267211914
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5906244079355653,16.73593020439148,0.004952192306518555
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5991200570484142,14.514197587966919,0.001890420913696289
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5880269935269259,22.46089506149292,0.008025646209716797
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5652932458115981,16.267278909683228,0.001971721649169922
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.6076482136669259,24.488136053085327,0.007088184356689453
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5569214411319674,15.501786947250366,0.002997159957885742
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.6080273239407156,39.659842014312744,0.012026786804199219
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5676610614311351,23.772459506988525,0.002008199691772461
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.6161406716448949,31.48603367805481,0.003926753997802734
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.6003040549722558,27.38620662689209,0.0019183158874511719
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.6167459711440934,44.14828133583069,0.006990194320678711
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5699688297216212,17.33413052558899,0.0019881725311279297
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.6183622167445962,46.60283970832825,0.006997346878051758
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.5569214411319674,14.499209880828857,0.002996683120727539
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",MeanEmbeddingMapper,DummyPreprocess,0.6231844417637669,79.88720750808716,0.01395273208618164
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.6052098214050711,4.943822860717773,0.002002239227294922
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.6168542650291716,8.008599996566772,0.0049114227294921875
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.594142206384062,7.499089241027832,0.0020411014556884766
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.6183187237720746,11.579227447509766,0.008299827575683594
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.5865230237000726,7.995415925979614,0.0019555091857910156
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.6084518424906054,11.979433536529541,0.007029294967651367
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.5932558582196824,12.310699701309204,0.0029802322387695312
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.6216279377113331,20.543589115142822,0.012996196746826172
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.6002247686668899,12.20145583152771,0.0020003318786621094
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.6167572987425928,16.635129928588867,0.005998373031616211
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.592199019862164,15.808653354644775,0.0019259452819824219
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.6222630739291226,22.150545358657837,0.007558345794677734
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.5612180406700954,16.572483777999878,0.0029964447021484375
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.611759301805806,24.794960737228394,0.008093118667602539
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.5864032828154716,22.751306533813477,0.0039806365966796875
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.6139137264895792,41.562546253204346,0.01301717758178711
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.5718404473118529,21.93126678466797,0.0019140243530273438
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.6167745130593428,32.29684019088745,0.005006551742553711
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.5820561846608184,29.72646689414978,0.005974292755126953
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.6208329628335411,44.99398899078369,0.006979703903198242
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.5576604956887498,32.80249762535095,0.001905679702758789
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.602433839383747,47.49314785003662,0.008005142211914062
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.5727646339421035,26.46692132949829,0.004002094268798828
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,DummyPreprocess,0.5936423225660498,80.8773717880249,0.013021707534790039
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.6044249282924405,6.3383965492248535,0.0020835399627685547
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.5970748662870138,8.672962665557861,0.003907203674316406
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.6090744700981928,7.379220962524414,0.002001523971557617
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.6007741458042895,11.754406929016113,0.009005069732666016
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.5717504342443793,8.122032403945923,0.0020465850830078125
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.6028121002623025,12.188324689865112,0.007504940032958984
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.5584529494910139,10.576620817184448,0.0029077529907226562
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.6020499820908011,20.613468170166016,0.012005805969238281
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.5777209930040678,12.484367609024048,0.0009338855743408203
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.6084516050239758,16.546787977218628,0.0060558319091796875
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.6012942179717425,13.525289297103882,0.0019981861114501953
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.6174304113439862,22.866785764694214,0.0070879459381103516
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.5545260178889996,14.061126947402954,0.002000570297241211
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.6161025267551192,24.21777057647705,0.008007287979125977
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.5840770555576381,14.068910121917725,0.002977609634399414
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.6228710087414572,40.58941864967346,0.01200556755065918
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.5760426853017306,23.955644845962524,0.0019147396087646484
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.618337772248735,32.27978229522705,0.004022121429443359
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.5795383759173208,21.182713508605957,0.0019788742065429688
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.6139804672854098,43.72513699531555,0.0069429874420166016
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.5545260178889996,14.103375911712646,0.001999378204345703
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.6016551877390669,47.18038058280945,0.007138490676879883
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.5840770555576381,14.839078187942505,0.003978252410888672
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",MeanEmbeddingMapper,AllPreprocess,0.5845101757097626,79.51919627189636,0.015001296997070312
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.6236157585883865,6.115554094314575,0.002000570297241211
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.6265494556566397,8.111798286437988,0.003907203674316406
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.6052360837137544,7.835082054138184,0.001997709274291992
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.6372454339719312,11.696102142333984,0.007427215576171875
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.5788978349648795,8.564178943634033,0.001920461654663086
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.6294681179909154,12.131259202957153,0.008550167083740234
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.5636653893294137,11.159364938735962,0.0029714107513427734
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.6214330436850544,20.910550832748413,0.013004302978515625
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.5857730878610986,12.471259593963623,0.0010030269622802734
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.6190648869142709,15.767246723175049,0.004018545150756836
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.5945114892599451,14.152673482894897,0.0029990673065185547
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.628936018617554,22.43881607055664,0.007016897201538086
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.5331300331739492,16.557459354400635,0.0019161701202392578
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.6272500846351282,24.422985792160034,0.006083250045776367
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.572763877434856,13.906397581100464,0.0029175281524658203
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.623721966986705,41.66430354118347,0.013005971908569336
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.5676504805780008,22.73750376701355,0.0019197463989257812
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.6143543138826156,31.754415273666382,0.003961086273193359
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.5897199166365605,26.719170331954956,0.0019173622131347656
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.6090529823438858,43.97010850906372,0.00691986083984375
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.5332546534451241,19.873119831085205,0.003000020980834961
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.6019235871376732,47.8997962474823,0.008003473281860352
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.572763877434856,15.18301272392273,0.002998828887939453
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,AllPreprocess,0.5869029067331292,80.63733696937561,0.013014793395996094
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.5898937090594488,6.641900062561035,0.0019192695617675781
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.6010065695443595,8.48985481262207,0.00491786003112793
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.5939167825933039,6.69221043586731,0.0020051002502441406
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.6124049248142991,11.557889938354492,0.007913351058959961
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.5687879797422809,7.409285545349121,0.001972198486328125
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.6023143025536958,11.621234893798828,0.008000850677490234
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.5728560280615281,10.456289052963257,0.0029082298278808594
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.6022611030759911,21.149251699447632,0.013613700866699219
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.5681620758821299,12.278656005859375,0.0009765625
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.6192907590881541,15.73855996131897,0.004918336868286133
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.5791777822691491,13.393842220306396,0.0020427703857421875
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.6237648108599533,22.298422813415527,0.0060918331146240234
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.556480637258158,14.301287174224854,0.0029745101928710938
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.6134420429486394,23.325379133224487,0.007091045379638672
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.5682949539459264,12.533694982528687,0.002910614013671875
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.6094643705887447,41.03862977027893,0.01100015640258789
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.57862592061936,22.09032678604126,0.0019207000732421875
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.6118286400152508,31.159794092178345,0.005006074905395508
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.57737935751,20.19306516647339,0.0019216537475585938
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.6051089149523549,43.13344120979309,0.006028652191162109
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.556480637258158,14.731364727020264,0.0020012855529785156
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.5865141499345338,46.390122413635254,0.006963014602661133
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.5682949539459264,12.738459348678589,0.002995729446411133
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",MeanEmbeddingMapper,StopWordsPreprocess,0.5776020537294989,79.78684568405151,0.01301121711730957
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.6175607827320487,4.870694398880005,0.0020024776458740234
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.6333770040499574,7.899633169174194,0.005013942718505859
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.5943492025568754,7.659859657287598,0.0020623207092285156
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.6339874228831998,11.479833602905273,0.008090496063232422
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.5661098127132284,8.012741088867188,0.002000570297241211
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.6297495897558449,11.97083830833435,0.0069217681884765625
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.5757025200206024,12.174071788787842,0.003965139389038086
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.6281836018767573,20.302407026290894,0.012980222702026367
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.5786881556206142,12.08654236793518,0.001924753189086914
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.6202981788326616,15.067792892456055,0.004016399383544922
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.5804265037051076,14.707435846328735,0.0019249916076660156
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.6299701810981561,21.811296463012695,0.007002830505371094
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.5580558730835413,17.10193395614624,0.0019195079803466797
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.6206844763082632,23.638930797576904,0.008003711700439453
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.5600444737318061,15.717138290405273,0.0029959678649902344
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.6083638755590265,39.81279683113098,0.013005495071411133
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.575007811683938,22.853282690048218,0.0020020008087158203
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.6051292662060109,26.066972494125366,0.004023313522338867
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.569723487600788,18.52090549468994,0.002982616424560547
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.6069650207497096,38.375263690948486,0.006003141403198242
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.5567539730668901,14.454240083694458,0.001979351043701172
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.5759157250545716,47.029001235961914,0.009016752243041992
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.5600444737318061,16.739216089248657,0.00397944450378418
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,StopWordsPreprocess,0.5840278854120523,79.93284583091736,0.01202535629272461
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.6060284294000224,6.089815378189087,0.003980875015258789
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5866215207194138,7.4490368366241455,0.005003690719604492
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.6122692623918665,7.444027900695801,0.003992557525634766
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5797737401177646,11.64350962638855,0.008559703826904297
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5618567633941102,8.477233171463013,0.0039997100830078125
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5900788374286869,12.316066265106201,0.009002208709716797
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5732550402033674,11.836074590682983,0.004000425338745117
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5883485755273034,20.549651861190796,0.014063119888305664
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5831405257866334,11.971993684768677,0.0020215511322021484
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5854136747086668,16.973307609558105,0.005020618438720703
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.6082623217429243,14.665254831314087,0.0029244422912597656
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5911445597427293,22.02209234237671,0.008026123046875
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5521504479665226,15.418445348739624,0.002900362014770508
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5902830789409887,24.01154589653015,0.00921630859375
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.573735870391403,13.714557886123657,0.0040013790130615234
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5972387617973665,40.61906027793884,0.013004779815673828
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5764921577849976,22.935009956359863,0.002001047134399414
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.6175841415184854,32.126301765441895,0.005007505416870117
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5929936011975943,26.11609387397766,0.0039997100830078125
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.623685290374976,43.277005434036255,0.008008241653442383
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.5495632168463853,18.425343990325928,0.0029468536376953125
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.6187762973352035,46.451154708862305,0.007008790969848633
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.573735870391403,14.839624166488647,0.003921031951904297
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",MeanEmbeddingMapper,Tarea1Preprocess,0.6106011937532227,79.25031018257141,0.016054153442382812
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.6158645276292335,5.421908140182495,0.002931833267211914
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.6206141654594247,8.68390703201294,0.005913257598876953
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.5934789098979328,7.413546800613403,0.0019783973693847656
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.6202868610324983,11.536020517349243,0.008002281188964844
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.5882179528368833,8.28334379196167,0.003000974655151367
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.6102404798872614,12.262701034545898,0.008002281188964844
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.5883614393437671,12.689737796783447,0.0029134750366210938
+MLPClassifier,"{max_iter: 100, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.6195972909157162,19.838377952575684,0.01300501823425293
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.6143994061676883,11.35247540473938,0.0020859241485595703
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.6211301263721585,16.800424098968506,0.004961490631103516
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.5827101505172524,14.515697717666626,0.0019164085388183594
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.6169357250070618,21.82942247390747,0.007938861846923828
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.5656793023778017,16.700135707855225,0.002000093460083008
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.614843376173025,24.58982229232788,0.009084224700927734
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.5659662349509175,23.50539255142212,0.0029172897338867188
+MLPClassifier,"{max_iter: 200, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.6176671810976766,41.071221113204956,0.013087272644042969
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.6150833112641781,24.793554067611694,0.005999088287353516
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.6260799764814785,32.72793388366699,0.003910541534423828
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.5685582238693024,29.26590657234192,0.0059680938720703125
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.6237780541285513,44.59076189994812,0.008011579513549805
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.5644522400899032,29.911390781402588,0.007000923156738281
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.614470271222329,47.5912983417511,0.007019758224487305
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: relu, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.5645050792929097,26.401716947555542,0.0029954910278320312
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100, 100), activation: logistic, random_state: 1}",CountMeanEmbeddingMapper,Tarea1Preprocess,0.6033387668991671,80.91672158241272,0.01260066032409668

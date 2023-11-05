@@ -1,0 +1,33 @@
+Classifier,Metaparameters,Word Representation,Preprocessing,F1 Score,Train Time,Test time
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",StandardBowMapper,DummyPreprocess,0.5558283127880314,334.1840567588806,0.013173103332519531
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",StandardBowMapper,DummyPreprocess,0.5567262880365219,603.2015478610992,0.008593559265136719
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",StandardBowMapper,DummyPreprocess,0.5546053214699068,124.79587483406067,0.0029489994049072266
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",StandardBowMapper,DummyPreprocess,0.5534104914790313,269.0792863368988,0.008003950119018555
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountStandardBowMapper,DummyPreprocess,0.5631316925111357,275.64623761177063,0.004002094268798828
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountStandardBowMapper,DummyPreprocess,0.5653122338763344,638.4126961231232,0.009005546569824219
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountStandardBowMapper,DummyPreprocess,0.5531458456068133,149.61056065559387,0.00400543212890625
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountStandardBowMapper,DummyPreprocess,0.5579406668758828,288.391304731369,0.010659933090209961
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",StandardBowMapper,AllPreprocess,0.5468618845843422,350.79267263412476,0.0029993057250976562
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",StandardBowMapper,AllPreprocess,0.5432466008576687,843.6252462863922,0.009999513626098633
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",StandardBowMapper,AllPreprocess,0.544464001342628,72.87151908874512,0.0020012855529785156
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",StandardBowMapper,AllPreprocess,0.5389631690027499,163.63202953338623,0.008094072341918945
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountStandardBowMapper,AllPreprocess,0.5617049850892504,335.6926293373108,0.0030922889709472656
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountStandardBowMapper,AllPreprocess,0.5621802520796799,889.6226971149445,0.00900578498840332
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountStandardBowMapper,AllPreprocess,0.5756748259129556,97.33384251594543,0.002000570297241211
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountStandardBowMapper,AllPreprocess,0.5456971662143052,191.6886019706726,0.009147167205810547
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",StandardBowMapper,StopWordsPreprocess,0.5628947190436356,337.92372941970825,0.0020961761474609375
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",StandardBowMapper,StopWordsPreprocess,0.554715614414634,695.1065266132355,0.009032964706420898
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",StandardBowMapper,StopWordsPreprocess,0.5669357668197812,119.72461891174316,0.003000497817993164
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",StandardBowMapper,StopWordsPreprocess,0.541157914582886,298.8260586261749,0.00791025161743164
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountStandardBowMapper,StopWordsPreprocess,0.5764332942603276,320.37151288986206,0.0029244422912597656
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountStandardBowMapper,StopWordsPreprocess,0.5648603095198906,806.5614495277405,0.008911848068237305
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountStandardBowMapper,StopWordsPreprocess,0.576700678636572,119.60711455345154,0.0029244422912597656
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountStandardBowMapper,StopWordsPreprocess,0.5708497827305029,269.5061705112457,0.009945392608642578
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",StandardBowMapper,Tarea1Preprocess,0.5517540839507112,365.9190571308136,0.0020151138305664062
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",StandardBowMapper,Tarea1Preprocess,0.5417723755950496,645.9134130477905,0.007991552352905273
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",StandardBowMapper,Tarea1Preprocess,0.5484861834657816,84.90418672561646,0.0027205944061279297
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",StandardBowMapper,Tarea1Preprocess,0.5341108102937221,157.12736296653748,0.008912801742553711
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: relu, random_state: 1}",CountStandardBowMapper,Tarea1Preprocess,0.571319209877939,324.07527112960815,0.004912853240966797
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (100,), activation: logistic, random_state: 1}",CountStandardBowMapper,Tarea1Preprocess,0.5624904066872193,650.2955105304718,0.008025646209716797
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: relu, random_state: 1}",CountStandardBowMapper,Tarea1Preprocess,0.56448272906659,100.4893970489502,0.003002166748046875
+MLPClassifier,"{max_iter: 400, hidden_layer_sizes: (50, 50), activation: logistic, random_state: 1}",CountStandardBowMapper,Tarea1Preprocess,0.5547233433620294,185.79945468902588,0.009004354476928711
