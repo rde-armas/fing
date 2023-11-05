@@ -1,0 +1,7 @@
+foo :: (Int,Int) -> Int
+foo(x,y) = 4 + 11 + 2 + 1
+
+bar :: (Int) -> Int
+bar(x) = 2
+
+main = foo(x,4) + bar(x)

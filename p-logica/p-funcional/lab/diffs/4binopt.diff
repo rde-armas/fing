@@ -1,0 +1,4 @@
+2c2
+< foo(x,y) = let x = y in x + let y = x + y in y
+---
+> foo(x,y) = y + x + y
